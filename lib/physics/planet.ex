@@ -15,8 +15,3 @@ defmodule Physics.Planet do
   end
 
 end
-
-v = %Physics.Planet{}
- |> Physics.Planet.escape_velocity
-
-v == 11.2 #true
